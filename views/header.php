@@ -1,5 +1,5 @@
 
-    <div class"header">
+    <div class="header">
       <!-- Slideshow container -->
       <div class="mySlides fade">
         <!-- <div class="numbertext">1 / 3</div> -->
