@@ -13,27 +13,27 @@
             </a>
           </div>
           <div class="item_menu">
-            <a href="views/ambiente.php">
+            <a href="ambiente.php">
               Ambiente
             </a>
           </div>
           <div class="item_menu">
-            <a href="views/cardapio.php">
+            <a href="cardapio.php">
               Cardapio
             </a>
           </div>
           <div class="item_menu">
-            <a href="views/eventos.php">
+            <a href="eventos.php">
               Eventos
             </a>
           </div>
           <div class="item_menu">
-            <a href="views/localizao.php">
+            <a href="localizao.php">
               Localização
             </a>
           </div>
           <div class="item_menu">
-            <a href="views/faleconosco.php">
+            <a href="faleconosco.php">
               Fale Conosco
             </a>
           </div>
