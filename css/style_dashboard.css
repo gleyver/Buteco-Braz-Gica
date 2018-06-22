@@ -184,7 +184,7 @@
   .suporte_ambientes{
     width: 100%;
     height: 1000px;
-    /* background-color: #db9c1e; */
+
   }
 
   .fg_imagem , .imagem_ambiente{
@@ -197,8 +197,6 @@
     width: 100%;
     height: 600px;
     float: left;
-    margin-left: 10px;
-    margin-right: 5px;
   }
 
   .formatacao_texto_ambiente{
