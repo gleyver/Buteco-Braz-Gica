@@ -18,8 +18,10 @@
         <div class="titulos">Ambientes do Bar</div>
       </div>
 
-      <div class="">
-
+      <div class="conteudo">
+        <div class="">
+            <img src="../imagens/ambiente_bar_1.jpg" alt="">
+        </div>
       </div>
     </main>
     <?php require_once 'footer.php'; ?>
