@@ -208,9 +208,6 @@
       display: none;
   }
 
-  .header{
-    display: none;
-  }
   .menu_mobile{
     display: block;
   }
@@ -316,10 +313,6 @@
   header{display:inline-block; font-size:12px;}
   span{padding-left:20px;}
   a{color:#336699;}
-
-  .header{
-    display: none;
-  }
 
   .logo_retangular_responsivo{
       width: 200px;
