@@ -3,9 +3,8 @@
 <html lang="pt-br" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Ambiente</title>
     <link rel="stylesheet" href="../css/basePagina.css">
-    <link rel="stylesheet" href="../css/style_dashboard.css">
     <link rel="stylesheet" href="../css/style_ambiente.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
