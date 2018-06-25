@@ -54,5 +54,19 @@
       </form>
     </main>
     <?php require_once 'footer.php'; ?>
+    <script>
+      $(window).bind("orientationchange", function(){
+        var orientation = window.orientation;
+        var new_orientation = (orientation) ? 0 : 180 + orientation;
+        $('body').css({
+            "-webkit-transform": "rotate(" + new_orientation + "deg)",           //Chrome
+            "-moz-transform": "rotate(" + new_orientation + "deg)",              //Firefox
+            "-o-transform": "rotate(" + new_orientation + "deg)",                //Opera
+            "-ms-transform": "rotate(" + new_orientation + "deg)",               //IE's novos
+            "transform": "rotate(" + new_orientation + "deg)",                   //nativa
+            "filter": "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)" //IE's antigos
+        });
+      });
+    </script>
   </body>
 </html>
