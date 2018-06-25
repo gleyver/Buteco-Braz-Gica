@@ -71,7 +71,7 @@
           <a href="ambiente.php"><li>Ambiente</li></a>
           <a href="#" ref="conteudo_cardapio"><li>Cardapio</li></a>
           <a href="eventos.php"><li>Eventos</li></a>
-          <a href="localizacao.php"><li>Localização</li></a>
+          <a href="#" ref="localizacao"><li>Localização</li></a>
           <a href="faleconosco.php"><li>Fale Conosco</li></a>
         </ul>
       </div>
