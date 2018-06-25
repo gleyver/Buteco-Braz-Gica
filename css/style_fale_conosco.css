@@ -96,6 +96,7 @@
    }
 
    .titulos_fale_conosco{
+
      height: 22px;
      font-size: 20px;
      color: #000000;
@@ -110,14 +111,31 @@
      margin-top: 4px;
    }
 
+   .txtarea{
+     margin-top: 5px;
+   }
+   .txtarea2{
+     display: none;
+   }
    .suporte_botao{
      height: 50px;
      width: 200px;
-     margin: auto;
+     margin:10px auto;
    }
+
+
  }
 
  @media screen and (max-device-width: 520px){
+   .txtarea{
+     display: none;
+   }
+
+   .txtarea2{
+     display: block;
+     margin-top: 5px;
+   }
+
    /* Segura todo conteúdo e padrões*/
    main{
      min-height: 800px;
@@ -159,7 +177,7 @@
      line-height: 28px;
      height:28px;
      font-size: 24px;
-     width: auto;
+     width: 300px;
      color: #db9c1e;
      /* color: #FFFFFF; */
      text-align: center;
@@ -169,7 +187,8 @@
      width: 100%;
      min-height: 22px;
      height: auto;
-     font-size: 20px;
+     font-size: 16px;
+     margin-left: 10px;
      color: #FFFFFF;
    }
 
@@ -196,7 +215,7 @@
 
    .titulos_fale_conosco{
      height: 22px;
-     font-size: 20px;
+     font-size: 16px;
      color: #000000;
      /* float: left; */
      margin: auto;
@@ -210,8 +229,9 @@
    }
 
    .suporte_botao{
-     height: 50px;
-     width: 200px;
-     margin: auto;
+     height: 30px;
+     width: 65px;
+     margin: 10px auto;
+     /* background-color: #FFF; */
    }
  }
