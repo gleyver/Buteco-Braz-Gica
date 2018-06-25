@@ -176,5 +176,18 @@
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChOOhHq12LWYndEM_JPwsI7AM_WIX3R2M&callback=initMap">
     </script>
+    <script>
+      $(".item_menu a").click(function(e) {
+
+        e.preventDefault();
+
+        var obj = "div." + $(this).attr("ref");
+
+        $('html, body').animate({
+            scrollTop: $(obj).offset().top
+        }, 800);
+
+      });
+    </script>
   </body>
 </html>
