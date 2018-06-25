@@ -9,6 +9,8 @@
    margin: 0px;
    padding: 0px;
  }
+
+
 @media screen and (min-device-width: 1200px){
   /* Segura todo conteúdo e padrões*/
   main{
@@ -139,7 +141,21 @@
   /*---------- Aonde Estamos ----------*/
 }
 @media screen and (max-device-width: 520px){
+  @media (orientation: landscape) {
+      #content {
+      -webkit-transform: rotate(-90deg);
+      /* Firefox */
+      -moz-transform: rotate(-90deg);
+      /* IE */
+      -ms-transform: rotate(-90deg);
+      /* Opera */
+      -o-transform: rotate(-90deg);
+      /* Internet Explorer */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+      /* final spec */
+      transform: rotate(-90deg);
+      }
   main{
     min-height: 1400px;
     height: auto;

@@ -17,7 +17,21 @@
     margin: 0px;
     padding: 0px;
   }
+  @media (orientation: landscape) {
+      #content {
+      -webkit-transform: rotate(-90deg);
+      /* Firefox */
+      -moz-transform: rotate(-90deg);
+      /* IE */
+      -ms-transform: rotate(-90deg);
+      /* Opera */
+      -o-transform: rotate(-90deg);
+      /* Internet Explorer */
+      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 
+      /* final spec */
+      transform: rotate(-90deg);
+      }
 
  @media screen and (min-device-width: 1200px){
    /* Segura todo conteúdo e padrões*/
