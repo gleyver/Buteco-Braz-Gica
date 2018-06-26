@@ -13,12 +13,12 @@
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="linha_invisivel">
+            <a href="#" ref="menu_ambiente">
               Ambiente
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="conteudo_cardapio">
+            <a href="#" ref="cardapio_menu">
               Cardapio
             </a>
           </div>
@@ -28,12 +28,12 @@
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="localizacao">
+            <a href="#" ref="menu_localiza">
               Localização
             </a>
           </div>
           <div class="item_menu">
-            <a href="faleconosco.php">
+            <a href="#" ref="caixas_text">
               Fale Conosco
             </a>
           </div>

@@ -17,21 +17,6 @@
     margin: 0px;
     padding: 0px;
   }
-  @media (orientation: landscape) {
-      #content {
-      -webkit-transform: rotate(-90deg);
-      /* Firefox */
-      -moz-transform: rotate(-90deg);
-      /* IE */
-      -ms-transform: rotate(-90deg);
-      /* Opera */
-      -o-transform: rotate(-90deg);
-      /* Internet Explorer */
-      filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
-      /* final spec */
-      transform: rotate(-90deg);
-      }
 
  @media screen and (min-device-width: 1200px){
    /* Segura todo conteúdo e padrões*/
@@ -89,12 +74,20 @@
    }
 
    .conteudo{
-     height: 500px;
-     width: 800px;
+     height: 290px;
+     width: 720px;
      background-color: #db9c1e;
      margin:10px auto;
      border-radius: 2%;
      border: 6px solid #FFFFFF;
+     float: left;
+   }
+
+   .caixas_text{
+     width: 320px;
+     height:200px;
+     /* background-color: #FFF; */
+     float: left;
    }
 
    .suporte_fale_conos{
@@ -111,8 +104,8 @@
 
    .titulos_fale_conosco{
 
-     height: 22px;
-     font-size: 20px;
+     height: 18px;
+     font-size: 16px;
      color: #000000;
      /* float: left; */
      margin: auto;
@@ -132,9 +125,11 @@
      display: none;
    }
    .suporte_botao{
-     height: 50px;
-     width: 200px;
-     margin:10px auto;
+     height: 30px;
+     width: 80px;
+     /* margin:10px auto; */
+     float: right;
+     /* background-color: #fff; */
    }
 
 

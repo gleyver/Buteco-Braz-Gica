@@ -196,11 +196,54 @@
 
   /*---------- Footer ----------*/
   footer{
-    height: 50px;
+    height: 320px;
     width: 100%;
     background-color: #000;
     border-top: 3px solid #CCC;
     margin-top: 5px;
+  }
+  .menu_ambiente{
+    height: 70px;
+    /* display: none; */
+  }
+
+  .mapa_links{
+    height: 300px;
+    width: 300px;
+    float: left;
+    /* background-color: #c2c2c2; */
+    margin: 10px;
+  }
+
+  .conteudo_funcionamento_tempo{
+    height: 300px;
+    width: 300px;
+    float: left;
+    background-color: #c2c2c2;
+    margin: 10px;
+
+  }
+
+  .alinha_mapa_menu{
+    height: 300px;
+    width: 150px;
+    margin: auto;
+  }
+
+  .mapa_menu{
+    width: 170px;
+    height: 22px;
+    font-size: 22px;
+    color: #db9c1e;
+    margin: auto;
+  }
+  .links{
+    width: auto;
+    height: 18px;
+    color: #db9c1e;
+    font-size: 18px;
+    text-align: center;
+    margin-top:15px;
   }
 }
 @media screen and (max-device-width: 520px){

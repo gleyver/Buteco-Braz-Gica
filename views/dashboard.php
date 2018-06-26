@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="../css/basePagina.css">
     <link rel="stylesheet" href="../css/style_dashboard.css">
+    <link rel="stylesheet" href="../css/style_fale_conosco.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -29,6 +30,9 @@
             Para dar ao documento uma aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra lateral correspondentes. Clique em Inserir e escolha os elementos desejados nas diferentes galerias.
             Temas e estilos também ajudam a manter seu documento coordenado. Quando você clica em Design e escolhe um novo tema, as imagens, gráficos e elementos gráficos SmartArt são alterados para corresponder ao novo tema. Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
             Economize tempo no Word com novos botões que são mostrados no local em que você precisa.
+            <div class="cardapio_menu">
+
+            </div>
           </span>
         </div>
       </div>
@@ -65,6 +69,7 @@
         </div>
         <div class="suporte_texto_cardapio">
           <p class="texto_cardapio">
+            <div class="menu_localiza"></div>
             Refrigerante | Sucos | Água | Água de côco | H2O | Energético
           </p>
         </div>
@@ -76,6 +81,7 @@
         <div class="suporte_texto_cardapio">
           <p class="texto_cardapio">
             Batata | Calabresa | Contra Filé | Frango | Mandioca | Polenta | Salame
+
           </p>
         </div>
       </div>
@@ -177,7 +183,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChOOhHq12LWYndEM_JPwsI7AM_WIX3R2M&callback=initMap">
     </script>
     <script>
-      $(".item_menu a").click(function(e) {
+      $(".item_menu a, .links a").click(function(e) {
 
         e.preventDefault();
 
@@ -187,20 +193,6 @@
             scrollTop: $(obj).offset().top
         }, 800);
 
-      });
-    </script>
-    <script>
-      $(window).bind("orientationchange", function(){
-        var orientation = window.orientation;
-        var new_orientation = (orientation) ? 0 : 180 + orientation;
-        $('body').css({
-            "-webkit-transform": "rotate(" + new_orientation + "deg)",           //Chrome
-            "-moz-transform": "rotate(" + new_orientation + "deg)",              //Firefox
-            "-o-transform": "rotate(" + new_orientation + "deg)",                //Opera
-            "-ms-transform": "rotate(" + new_orientation + "deg)",               //IE's novos
-            "transform": "rotate(" + new_orientation + "deg)",                   //nativa
-            "filter": "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)" //IE's antigos
-        });
       });
     </script>
   </body>
