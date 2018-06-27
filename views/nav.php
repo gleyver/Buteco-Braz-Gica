@@ -68,11 +68,11 @@
       <div class="menu">
         <ul>
           <a href="dashboard.php"><li>Home</li></a>
-          <a href="ambiente.php"><li>Ambiente</li></a>
-          <a href="#" ref="conteudo_cardapio"><li>Cardapio</li></a>
+          <a href="#" ref="menu_ambiente"><li>Ambiente</li></a>
+          <a href="#" ref="cardapio_menu"><li>Cardapio</li></a>
           <a href="eventos.php"><li>Eventos</li></a>
-          <a href="#" ref="localizacao"><li>Localização</li></a>
-          <a href="faleconosco.php"><li>Fale Conosco</li></a>
+          <a href="#" ref="menu_localiza"><li>Localização</li></a>
+          <a href="#" ref="caixas_text"><li>Fale Conosco</li></a>
         </ul>
       </div>
     </div>

@@ -183,7 +183,7 @@
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChOOhHq12LWYndEM_JPwsI7AM_WIX3R2M&callback=initMap">
     </script>
     <script>
-      $(".item_menu a, .links a").click(function(e) {
+      $(".item_menu a, .links a, .menu a").click(function(e) {
 
         e.preventDefault();
 

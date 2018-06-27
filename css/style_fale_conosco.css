@@ -5,13 +5,6 @@
   Obs: Estilização da página fale conosco
 
  */
- /*
-
-   Desenvolvido por: Gleyver Coutinho
-   Data: 21-06-2018
-   Obs: Estilização da página ambientes
-
-  */
 
   *{
     margin: 0px;
@@ -153,12 +146,7 @@
      margin: auto;
    }
 
-   textarea{
-     text-decoration: none;
-     resize: none;
-     margin-top: 10px;
-     columns: 30;
-   }
+
 
    body{
      background-image: url('../imagens/background_site.jpg');
@@ -192,55 +180,5 @@
      text-align: center;
    }
 
-   .texto_antes_fale_conosco{
-     width: 100%;
-     min-height: 22px;
-     height: auto;
-     font-size: 16px;
-     margin-left: 10px;
-     color: #FFFFFF;
-   }
 
-   .conteudo{
-     height: 500px;
-     width: 97%;
-     background-color: #db9c1e;
-     margin:10px auto;
-     border-radius: 2%;
-     border: 6px solid #FFFFFF;
-   }
-
-   .suporte_fale_conos{
-     width: 100%;
-     height: 60px;
-     margin-left: 10px;
-   }
-
-   .suporte_fale_conosco_mensagem{
-     width: 100%;
-     height: 200px;
-     margin-left: 10px;
-   }
-
-   .titulos_fale_conosco{
-     height: 22px;
-     font-size: 16px;
-     color: #000000;
-     /* float: left; */
-     margin: auto;
-   }
-
-   .input_fale{
-     height: 35px;
-     width: 300px;
-     border-radius: 10px;
-     margin-top: 4px;
-   }
-
-   .suporte_botao{
-     height: 30px;
-     width: 65px;
-     margin: 10px auto;
-     /* background-color: #FFF; */
-   }
  }
