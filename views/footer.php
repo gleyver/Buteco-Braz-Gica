@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
     <footer>
       <div class="mapa_links">
         <div class="mapa_menu">
@@ -76,5 +70,3 @@
       </div>
 
     </footer>
-  </body>
-</html>
