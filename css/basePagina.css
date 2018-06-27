@@ -211,17 +211,15 @@
     height: 300px;
     width: 300px;
     float: left;
-    /* background-color: #c2c2c2; */
     margin: 10px;
   }
 
   .conteudo_funcionamento_tempo{
-    height: 300px;
-    width: 300px;
+    height: 140px;
+    width: auto;
     float: left;
-    background-color: #c2c2c2;
     margin: 10px;
-
+    border: 1px solid #FFFFFF;
   }
 
   .alinha_mapa_menu{
@@ -246,6 +244,25 @@
     margin-top:15px;
   }
 
+
+  .titulo_funcionamento{
+    height: 18px;
+    width: 250px;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    color: #db9c1e;
+    font-weight: bold;;
+  }
+  .dia_funcionamento{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    color: #db9c1e;
+    margin-top: 10px;
+  }
 }
 @media screen and (max-device-width: 520px){
 
@@ -382,14 +399,31 @@
   }
 
   .conteudo_funcionamento_tempo{
-    height: 300px;
-    width: 300px;
+    height: 140px;
+    width: 97%;
     float: left;
-    background-color: #c2c2c2;
     margin: 10px;
-
+    border: 1px solid #FFFFFF;
   }
 
+  .titulo_funcionamento{
+    height: 18px;
+    width: 100%;
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    color: #db9c1e;
+    font-weight: bold;;
+  }
+  .dia_funcionamento{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    font-size: 14px;
+    color: #db9c1e;
+    margin-top: 10px;
+  }
   .alinha_mapa_menu{
     height: 300px;
     width: 150px;
@@ -411,5 +445,4 @@
     text-align: center;
     margin-top:15px;
   }
-
 }

@@ -64,6 +64,10 @@
         <div class="titulo_funcionamento">
           Horário de funcionamento
         </div>
+        <div class="dia_funcionamento">
+            Sexta - 17:00 as 00:00<br/>
+            Sábado - 17:00 as 00:00
+        </div>
 
 
 
