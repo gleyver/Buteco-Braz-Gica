@@ -36,6 +36,22 @@
           </span>
         </div>
       </div>
+      <div class="suporte_titulos">
+        <div class="titulos">Eventos</div>
+      </div>
+      <div class="suporte_eventos">
+        <div class="suporte_fotos">
+          <img src="../imagens/Aniversariante.jpg" alt="" class="imagem_eventos">
+        </div>
+
+        <div class="suporte_fotos">
+          <img src="../imagens/SEXTA_2206.jpg" alt="" class="imagem_eventos">
+        </div>
+
+        <div class="suporte_fotos">
+          <img src="../imagens/SABADO_2306.jpg" alt="" class="imagem_eventos">
+        </div>
+      </div>
       <!-- <br> -->
       <div class="suporte_titulos">
         <div class="titulos">Cardapio Braz Gica</div>

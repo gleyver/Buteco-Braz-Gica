@@ -53,8 +53,8 @@
 
             <div class="suporte_fale_conosco_mensagem">
               <div class="titulos_fale_conosco">Mensagem</div>
-              <textarea name="txt_mensagem" rows="7" cols="40" class="txtarea"></textarea>
-              <textarea name="txt_mensagem" rows="7" cols="40" class="txtarea2"></textarea>
+              <textarea name="txt_mensagem" rows="7" cols="35" class="txtarea"></textarea>
+              <textarea name="txt_mensagem" rows="7" cols="35" class="txtarea2"></textarea>
             </div>
             <div class="suporte_botao">
               <input type="submit" name="txt_enviar" value="ENVIAR">

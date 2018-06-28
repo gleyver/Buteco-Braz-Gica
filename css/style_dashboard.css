@@ -75,14 +75,38 @@
     font-size: 16px;
     color: #fff;
   }
+
+  /*--------------- Eventos ----------*/
+  .suporte_eventos{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+  }
+
+  .suporte_fotos{
+    width: 32%;
+    height: 480px;
+    background-color: #FFF;
+    margin: 8px;
+    float: left;
+  }
+
+  .imagem_eventos{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem_eventos:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
   /*---------- Cardápio ----------*/
   .conteudo_cardapio{
     min-height: 600px;
     height: auto;
     width: 770px;
     margin: auto;
-    /* width: auto; */
-    /* background-color: #ccc; */
     border: 3px solid #fff;
   }
 
@@ -209,14 +233,38 @@
     font-size: 16px;
     color: #fff;
   }
+  /**/
+  /*--------------- Eventos ----------*/
+  .suporte_eventos{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+  }
+
+  .suporte_fotos{
+    width: 100%;
+    height: 480px;
+    background-color: #FFF;
+    margin: 8px;
+    /* float: left; */
+  }
+
+  .imagem_eventos{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem_eventos:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
   /*---------- Cardápio ----------*/
   .conteudo_cardapio{
     min-height: 600px;
     height: auto;
     width: 100%;
     margin: auto;
-    /* width: auto; */
-    /* background-color: #ccc; */
     border: 3px solid #fff;
   }
 
