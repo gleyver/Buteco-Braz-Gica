@@ -254,11 +254,6 @@
     height: 100%;
   }
 
-  .imagem_eventos:hover{
-    -moz-transform: scale(1.5);
-    -webkit-transform: scale(1.5);
-    -o-transform: scale(1.5);
-  }
   /*---------- Cardápio ----------*/
   .conteudo_cardapio{
     min-height: 600px;

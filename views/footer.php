@@ -17,7 +17,7 @@
               <a href="#" ref="cardapio_menu">Cardapio</a>
             </div>
             <div class="links">
-              <a href="#" ref="">Eventos</a>
+              <a href="#" ref="eventos_menu">Eventos</a>
             </div>
             <div class="links">
               <a href="#" ref="menu_localiza">Localização</a>

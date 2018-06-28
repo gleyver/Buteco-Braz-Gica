@@ -23,7 +23,7 @@
             </a>
           </div>
           <div class="item_menu">
-            <a href="eventos.php">
+            <a href="#" ref="eventos_menu">
               Eventos
             </a>
           </div>
@@ -70,7 +70,7 @@
           <a href="dashboard.php"><li>Home</li></a>
           <a href="#" ref="menu_ambiente"><li>Ambiente</li></a>
           <a href="#" ref="cardapio_menu"><li>Cardapio</li></a>
-          <a href="eventos.php"><li>Eventos</li></a>
+          <a href="#" ref="eventos_menu"><li>Eventos</li></a>
           <a href="#" ref="menu_localiza"><li>Localização</li></a>
           <a href="#" ref="caixas_text"><li>Fale Conosco</li></a>
         </ul>

@@ -30,7 +30,7 @@
             Para dar ao documento uma aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra lateral correspondentes. Clique em Inserir e escolha os elementos desejados nas diferentes galerias.
             Temas e estilos também ajudam a manter seu documento coordenado. Quando você clica em Design e escolhe um novo tema, as imagens, gráficos e elementos gráficos SmartArt são alterados para corresponder ao novo tema. Quando você aplica estilos, os títulos são alterados para coincidir com o novo tema.
             Economize tempo no Word com novos botões que são mostrados no local em que você precisa.
-            <div class="cardapio_menu">
+            <div class="eventos_menu">
 
             </div>
           </span>
@@ -50,6 +50,9 @@
 
         <div class="suporte_fotos">
           <img src="../imagens/SABADO_2306.jpg" alt="" class="imagem_eventos">
+        </div>
+        <div class="cardapio_menu">
+
         </div>
       </div>
       <!-- <br> -->
