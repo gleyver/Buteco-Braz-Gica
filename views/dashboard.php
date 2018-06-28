@@ -68,8 +68,9 @@
           <div class="texto_titulos">Bebidas</div>
         </div>
         <div class="suporte_texto_cardapio">
+          <div class="menu_localiza"></div>
           <p class="texto_cardapio">
-            <div class="menu_localiza"></div>
+
             Refrigerante | Sucos | Água | Água de côco | H2O | Energético
           </p>
         </div>

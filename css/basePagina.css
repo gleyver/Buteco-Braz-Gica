@@ -223,7 +223,7 @@
   }
 
   .alinha_mapa_menu{
-    height: 300px;
+    height: 250px;
     width: 150px;
     margin: auto;
   }
@@ -262,6 +262,13 @@
     font-size: 14px;
     color: #db9c1e;
     margin-top: 10px;
+  }
+
+  .suporte_rodapee{
+    width: 1500px;
+    height: auto;
+    margin: auto;
+    background-color: #FFF;
   }
 }
 @media screen and (max-device-width: 520px){
@@ -425,7 +432,7 @@
     margin-top: 10px;
   }
   .alinha_mapa_menu{
-    height: 300px;
+    height: 250px;
     width: 150px;
     margin: auto;
   }
