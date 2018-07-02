@@ -9,11 +9,65 @@
     <link rel="stylesheet" href="../css/style_fale_conosco.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style_modal_telefone.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>/*Modal*/
+        $(document).ready(function(){
+
+            $(".novo").click(function(){
+                $(".container_modal").toggle(2000);
+            });
+
+            $(".editar").click(function(){
+                $(".container_modal").fadeIn(2000);
+
+            });
+        });
+
+        function Cadastrar(){
+              console.log('entrou_aqui');
+             $.ajax({
+                 type:"POST",
+                 url:"modal/modal_telefone.php",
+                 success: function(dados){
+                     $(".modal").html(dados);
+                 }
+             });
+        }
+
+    </script>
   </head>
   <body>
+
     <?php require_once 'nav.php'; ?>
     <?php require_once 'header.php' ?>
     <main>
+      <!-- Modal do site -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Sorteio</h4>
+            </div>
+            <div class="modal-body">
+              <p>Telefone:</p>
+              <div class="">
+                <input type="text" name="txt_telefone" value="">
+              </div>
+            </div>
+            <div class="modal-footer">
+              <input type="submit" name="" value="Cadastrar">
+              <input type="submit" name="" value="Fechar">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
       <div class="linha_invisivel"></div>
       <div class="suporte_titulos">
         <div class="titulos">Ambiente</div>
@@ -41,7 +95,9 @@
       </div>
       <div class="suporte_eventos">
         <div class="suporte_fotos">
-          <img src="../imagens/Aniversariante.jpg" alt="" class="imagem_eventos">
+          <a href="#"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+            <img src="../imagens/Aniversariante.jpg" alt="" class="imagem_eventos">
+          </a>
         </div>
 
         <div class="suporte_fotos">
