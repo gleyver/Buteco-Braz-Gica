@@ -70,7 +70,8 @@
      height: 290px;
      width: 720px;
      background-color: #db9c1e;
-     margin:auto;
+     margin-left: 20%;
+     /* margin-right: 100%; */
      border-radius: 2%;
      border: 6px solid #FFFFFF;
      float: left;
@@ -123,6 +124,10 @@
      /* margin:10px auto; */
      float: right;
      /* background-color: #fff; */
+   }
+
+   .texto_whatssapp{
+     color: #000000;
    }
 
 

@@ -19,8 +19,8 @@
       </div>
 
       <div class="conteudo">
-        <div class="">
-            <img src="../imagens/ambiente_bar_1.jpg" alt="">
+        <div class="suporte_ambiente">
+            <img src="../imagens/ambiente_bar_1.jpg" alt="" style="width:300px;height:300px;">
         </div>
       </div>
     </main>
