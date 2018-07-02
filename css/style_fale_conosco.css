@@ -66,11 +66,11 @@
      color: #FFFFFF;
    }
 
-   .conteudo{
+   .conteudo_formulario{
      height: 290px;
      width: 720px;
      background-color: #db9c1e;
-     margin:10px auto;
+     margin:auto;
      border-radius: 2%;
      border: 6px solid #FFFFFF;
      float: left;

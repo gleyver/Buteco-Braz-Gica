@@ -18,11 +18,11 @@
       <div class="suporte_titulos">
         <div class="titulos">Fale Conosco</div>
       </div>
+      <div class="texto_titulos">
+        Entre em contato conosco preenchendo o formulário abaixo:
+      </div>
+      <div class="conteudo_formulario">
 
-      <div class="conteudo">
-        <div class="">
-          Entre em contato conosco preenchendo o formulário abaixo:
-        </div>
         <form class="" action="dashboard.php" method="post">
           <div class="caixas_text">
             <div class="suporte_fale_conos">
