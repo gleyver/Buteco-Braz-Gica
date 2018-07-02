@@ -59,6 +59,9 @@
             <div class="suporte_botao">
               <input type="submit" name="txt_enviar" value="ENVIAR">
             </div>
+            <div class="">
+              <a href="https://api.whatsapp.com/send?phone=5511947926280&text=Ola%20Teste%20de%20Whatsapp">Acesse pelo whatsapp</a>
+            </div>
           </div>
         </form>
         <div class="conteudo_funcionamento_tempo">
