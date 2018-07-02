@@ -13,28 +13,33 @@
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="menu_ambiente">
+            <a href="ambiente.php">
               Ambiente
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="cardapio_menu">
+            <a href="cardapio.php">
               Cardapio
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="eventos_menu">
+            <a href="eventos.php">
               Eventos
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="menu_localiza">
+            <a href="localizacao.php">
               Localização
             </a>
           </div>
           <div class="item_menu">
-            <a href="#" ref="caixas_text">
+            <a href="fale_conosco.php">
               Fale Conosco
+            </a>
+          </div>
+          <div class="item_menu">
+            <a href="brinde.php">
+              Brinde
             </a>
           </div>
         </div>
@@ -68,11 +73,12 @@
       <div class="menu">
         <ul>
           <a href="dashboard.php"><li>Home</li></a>
-          <a href="#" ref="menu_ambiente"><li>Ambiente</li></a>
-          <a href="#" ref="cardapio_menu"><li>Cardapio</li></a>
-          <a href="#" ref="eventos_menu"><li>Eventos</li></a>
-          <a href="#" ref="menu_localiza"><li>Localização</li></a>
-          <a href="#" ref="caixas_text"><li>Fale Conosco</li></a>
+          <a href="ambiente.php"><li>Ambiente</li></a>
+          <a href="cardapio.php"><li>Cardapio</li></a>
+          <a href="eventos.php"><li>Eventos</li></a>
+          <a href="localizacao.php"><li>Localização</li></a>
+          <a href="fale_conosco.php"><li>Fale Conosco</li></a>
+          <a href="brinde.php"><li>Brinde</li></a>
         </ul>
       </div>
     </div>

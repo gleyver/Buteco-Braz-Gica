@@ -12,30 +12,10 @@
     <link rel="stylesheet" href="css/style_modal_telefone.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script>/*Modal*/
-        $(document).ready(function(){
-
-            $(".novo").click(function(){
-                $(".container_modal").toggle(2000);
-            });
-
-            $(".editar").click(function(){
-                $(".container_modal").fadeIn(2000);
-
-            });
-        });
-
-        function Cadastrar(){
-              console.log('entrou_aqui');
-             $.ajax({
-                 type:"POST",
-                 url:"modal/modal_telefone.php",
-                 success: function(dados){
-                     $(".modal").html(dados);
-                 }
-             });
-        }
-
+    <script>
+      function promocoes(){
+        window.location.assign("promocoes.php");
+      }
     </script>
   </head>
   <body>
@@ -258,18 +238,6 @@
     <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChOOhHq12LWYndEM_JPwsI7AM_WIX3R2M&callback=initMap">
     </script>
-    <script>
-      $(".item_menu a, .links a, .menu a").click(function(e) {
 
-        e.preventDefault();
-
-        var obj = "div." + $(this).attr("ref");
-
-        $('html, body').animate({
-            scrollTop: $(obj).offset().top
-        }, 800);
-
-      });
-    </script>
   </body>
 </html>

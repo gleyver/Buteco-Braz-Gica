@@ -3,13 +3,13 @@
       <!-- Slideshow container -->
       <div class="mySlides fade">
         <!-- <div class="numbertext">1 / 3</div> -->
-        <img src="../imagens/banner_comida.png" style="width:100%;height:680px;" alt="">
+        <img src="../imagens/banner_comida.png" style="width:1200px;height:680px;" alt="">
         <!-- <div class="text">Caption Text</div> -->
       </div>
 
       <div class="mySlides fade">
         <!-- <div class="numbertext">2 / 3</div> -->
-        <img src="../imagens/logo_buteco.jpeg" style="width:100%;height:680px;" alt="">
+        <img src="../imagens/logo_buteco.jpeg" style="width:1200px;height:680px;" alt="">
         <!-- <div class="text">Caption Two</div> -->
         <div class="menu_ambiente">
               </div>

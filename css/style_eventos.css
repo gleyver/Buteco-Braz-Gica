@@ -1,21 +1,10 @@
-/*
-
-  Desenvolvido por: Gleyver Coutinho
-  Data: 21-06-2018
-  Obs: Estilização da página ambientes
-
- */
-
- *{
-   margin: 0px;
-   padding: 0px;
- }
 @media screen and (min-device-width: 1200px){
   /* Segura todo conteúdo e padrões*/
   main{
     min-height: 1400px;
+    height: auto;
     width: 1200px;
-    background-color: #000;
+    background-color: #000 ;
     margin: auto;
   }
 
@@ -46,18 +35,47 @@
     height:28px;
     font-size: 24px;
     width: auto;
-    /* color: #db9c1e; */
-    color: #FFFFFF;
+    color: #db9c1e;
     text-align: center;
   }
-}
 
-@media screen and (max-device-width: 520px){
-  /* Segura todo conteúdo e padrões*/
+  /*--------------- Eventos ----------*/
+  .suporte_eventos{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+  }
+
+  .suporte_fotos{
+    width: 32%;
+    height: 480px;
+    background-color: #FFF;
+    margin: 8px;
+    float: left;
+  }
+
+  .imagem_eventos{
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagem_eventos:hover{
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+  }
+}@media screen and (max-device-width: 520px){
+  textarea{
+    text-decoration: none;
+    resize: none;
+    margin-top: 10px;
+    columns: 30;
+  }
   main{
     min-height: 1400px;
+    height: auto;
     width: 100%;
-    background-color: #000;
+    background-color: #000 ;
     margin: auto;
   }
 
@@ -85,29 +103,31 @@
 
   .titulos{
     line-height: 28px;
-    height:28px;
-    font-size: 18px;
-    width: 80%;
-    /* color: #db9c1e; */
-    color: #FFFFFF;
+    height:24px;
+    font-size: 24px;
+    width: 100%;
+    color: #db9c1e;
+    margin: auto;
     text-align: center;
   }
-
-  .fg_imagem , .imagem_ambiente{
+  /*--------------- Eventos ----------*/
+  .suporte_eventos{
     width: 100%;
-    height: 400px;
-    float: left;
+    min-height: 500px;
+    height: auto;
   }
 
-  .texto_ambiente{
+  .suporte_fotos{
     width: 100%;
-    height: 600px;
-    float: left;
+    height: 480px;
+    background-color: #FFF;
+    margin: 8px;
+    /* float: left; */
   }
 
-  .formatacao_texto_ambiente{
-    font-size: 16px;
-    color: #fff;
+  .imagem_eventos{
+    width: 100%;
+    height: 100%;
   }
 
   .conteudo{

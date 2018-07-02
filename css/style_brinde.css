@@ -1,21 +1,10 @@
-/*
-
-  Desenvolvido por: Gleyver Coutinho
-  Data: 21-06-2018
-  Obs: Estilização da página ambientes
-
- */
-
- *{
-   margin: 0px;
-   padding: 0px;
- }
 @media screen and (min-device-width: 1200px){
   /* Segura todo conteúdo e padrões*/
   main{
     min-height: 1400px;
+    height: auto;
     width: 1200px;
-    background-color: #000;
+    background-color: #000 ;
     margin: auto;
   }
 
@@ -46,18 +35,21 @@
     height:28px;
     font-size: 24px;
     width: auto;
-    /* color: #db9c1e; */
-    color: #FFFFFF;
+    color: #db9c1e;
     text-align: center;
   }
-}
-
-@media screen and (max-device-width: 520px){
-  /* Segura todo conteúdo e padrões*/
+}@media screen and (max-device-width: 520px){
+  textarea{
+    text-decoration: none;
+    resize: none;
+    margin-top: 10px;
+    columns: 30;
+  }
   main{
     min-height: 1400px;
+    height: auto;
     width: 100%;
-    background-color: #000;
+    background-color: #000 ;
     margin: auto;
   }
 
@@ -85,31 +77,13 @@
 
   .titulos{
     line-height: 28px;
-    height:28px;
-    font-size: 18px;
-    width: 80%;
-    /* color: #db9c1e; */
-    color: #FFFFFF;
+    height:24px;
+    font-size: 24px;
+    width: 100%;
+    color: #db9c1e;
+    margin: auto;
     text-align: center;
   }
-
-  .fg_imagem , .imagem_ambiente{
-    width: 100%;
-    height: 400px;
-    float: left;
-  }
-
-  .texto_ambiente{
-    width: 100%;
-    height: 600px;
-    float: left;
-  }
-
-  .formatacao_texto_ambiente{
-    font-size: 16px;
-    color: #fff;
-  }
-
   .conteudo{
     min-height: 490px;
     height: auto;
