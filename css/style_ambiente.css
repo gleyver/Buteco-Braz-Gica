@@ -13,7 +13,7 @@
 @media screen and (min-device-width: 1200px){
   /* Segura todo conteúdo e padrões*/
   main{
-    min-height: 1400px;
+    min-height: 600px;
     width: 1200px;
     background-color: #000;
     margin: auto;
@@ -119,5 +119,10 @@
     border-radius: 2%;
     border: 6px solid #FFFFFF;
     float: left;
+  }
+
+  img{
+    height: 70px;
+    width: 50px;
   }
 }
