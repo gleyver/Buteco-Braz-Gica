@@ -24,28 +24,7 @@
     <?php require_once 'header.php' ?>
     <main>
       <!-- Modal do site -->
-      <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog">
-
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title">Sorteio</h4>
-            </div>
-            <div class="modal-body">
-              <p>Telefone:</p>
-              <div class="">
-                <input type="text" name="txt_telefone" value="">
-              </div>
-            </div>
-            <div class="modal-footer">
-              <input type="submit" name="" value="Cadastrar">
-              <input type="submit" name="" value="Fechar">
-            </div>
-          </div>
-        </div>
-      </div>
+  
 
 
       <div class="linha_invisivel"></div>

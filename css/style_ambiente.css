@@ -15,7 +15,7 @@
   main{
     min-height: 600px;
     width: 1200px;
-    background-color: #000;
+    background: #000;
     margin: auto;
   }
 
@@ -49,6 +49,13 @@
     /* color: #db9c1e; */
     color: #FFFFFF;
     text-align: center;
+  }
+
+  .container{
+    min-height: 600px;
+    height: auto;
+    width: 1200px;
+    background-color: #000;
   }
 }
 

@@ -1,50 +1,93 @@
-<?php  ?>
 <!DOCTYPE html>
-<html lang="pt-br" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Ambiente</title>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/basePagina.css">
     <link rel="stylesheet" href="../css/style_ambiente.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="Flipping Circle Slideshow" />
-    <meta name="keywords" content="flipping, circle, round, jquery plugin, circular, slideshow, 3d, css 3d transforms" />
-    <meta name="author" content="Gleyver" />
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" type="text/css" href="../css/default.css" />
-    <link rel="stylesheet" type="text/css" href="../css/component.css" />
-    <script src="../js/modernizr.custom.js"></script>
-  </head>
-  <body>
+		<title>3D Gallery Room</title>
+		<meta name="description" content="Add a description" />
+		<meta name="keywords" content="Add keywords" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="../3DGalleryRoom/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="../3DGalleryRoom/css/component.css" />
+		<script src="../3DGalleryRoom/js/modernizr.custom.js"></script>
+	</head>
+	<body>
     <?php require_once 'nav.php'; ?>
-    <?php //require_once 'header.php' ?>
-    <div class="container">
-			<!-- Codrops top bar -->
+		<div class="container">
 
 			<div class="main">
-				<div id="fc-slideshow" class="fc-slideshow">
-					<ul class="fc-slides">
-						<li><img src="../imagens/ambiente_bar_1.jpg"/><h3>Hot</h3></li>
-						<li><img src="../imagens/ambiente_bar_2.jpg"/><h3>Cold</h3></li>
-						<li><img src="../imagens/ambiente_bar_3.jpg"/><h3>Light</h3></li>
-						<li><img src="../imagens/ambiente_bar_4.jpg"/><h3>Dark</h3></li>
-						<li><img src="../imagens/ambiente_bar_5.jpg"/><h3>Soft</h3></li>
-						<li><img src="../imagens/ambiente_bar_6.jpg"/><h3>Hard</h3></li>
-						<li><img src="../imagens/ambiente_bar_7.jpg"/><h3>Smooth</h3></li>
-						<!-- <li><img src="../imagens/ambiente_bar_4.jpg"/><h3>Rough</h3></li> -->
-					</ul>
+				<div id="gr-gallery" class="gr-gallery">
+					<div class="gr-main">
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_1.jpg" alt="img01" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_2.jpg" alt="img02" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_3.jpg" alt="img03" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_4.jpg" alt="img04" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_5.jpg" alt="img01" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_6.jpg" alt="img02" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_7.jpg" alt="img03" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_1.jpg" alt="img08" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_2.jpg" alt="img09" />
+							</div>
+						</figure>
+						<figure>
+							<div>
+								<img src="../imagens/ambiente_bar_3.jpg" alt="img10" />
+							</div>
+						</figure>
+					</div>
 				</div>
 			</div>
 		</div><!-- /container -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-		<script src="../js/jquery.flipshow.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="../3DGalleryRoom/js/wallgallery.js"></script>
 		<script>
-			$( function() {
-				$( '#fc-slideshow' ).flipshow();
-			} );
+			$(function() {
+
+				Gallery.init( {
+					layout : [3,2,3,2]
+				} );
+
+			});
 		</script>
-    <?php require_once 'footer.php'; ?>
-  </body>
+				  <?php require_once 'footer.php'; ?>
+	</body>
 </html>
